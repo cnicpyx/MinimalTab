@@ -2,6 +2,8 @@
 
 MinimalTab 是一个简洁、优雅的新标签页扩展，专注于提供清爽的浏览体验。
 
+![MinimalTab Preview](screenshots/preview.png)
+
 ## 特性
 
 - 🎯 简约设计：极简界面，让您专注于重要内容
