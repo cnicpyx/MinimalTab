@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "极简新标签",
+  "version": "1.0",
+  "description": "一款优雅的新标签页扩展，集成时钟显示、多引擎搜索、智能书签管理于一体，搭配自动切换的精美背景图片，让每次打开新标签都是视觉享受。简约不简单，让浏览器起始页更加实用与美观。",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://api.ixiaowai.cn/*",
+    "https://api.btstu.cn/*",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https://* http://*"
+  }
+}
